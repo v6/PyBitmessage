@@ -1,7 +1,8 @@
-#PyBitmessage Installation Instructions 
+#PyBitmessage Installation Instructions
+*We have modified these instructions for this fork.*
 
-For an up-to-date version of these instructions, please visit the
-[Bitmessage Wiki](https://bitmessage.org/wiki/Compiling_instructions).
+For an up-to-date version of these instructions for the official BitMessage, not this fork, 
+please visit the [Bitmessage Wiki](https://bitmessage.org/wiki/Compiling_instructions).
 
 PyBitmessage can be run either straight from source or from an installed
 package.
@@ -35,7 +36,7 @@ Voilà! Bitmessage is updated!
 To run PyBitmessage from the command-line, you must download the source, then
 run `src/bitmessagemain.py`.
 ```
-git clone git://github.com/Bitmessage/PyBitmessage.git
+git clone git://github.com/mailchuck/PyBitmessage.git
 cd PyBitmessage/ && python src/bitmessagemain.py
 ```
 
@@ -62,7 +63,7 @@ brew install git python pyqt
 
 Download and run PyBitmessage:
 ```
-git clone git://github.com/Bitmessage/PyBitmessage.git
+git clone git://github.com/mailchuck/PyBitmessage.git
 cd PyBitmessage && python src/bitmessagemain.py
 ```
 
